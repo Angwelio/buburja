@@ -10,6 +10,8 @@ public class limpiadordepibes : MonoBehaviour
     private Animator anim;
     public Transform pointer;
     public GameObject burbuja;
+    public bool ilegal;
+    public int tempo;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -17,6 +19,14 @@ public class limpiadordepibes : MonoBehaviour
     }
     void Update()
     {
+        if (ilegal){
+            if (tempo-- <= 0){
+                tempo = 0;
+                ilegal = false;
+            }else{
+                tempo--;
+            }
+        }
         mov = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         if (Input.GetAxisRaw("Horizontal") == 1){
             //transform.rotation = Quaternion.Euler(0, 0, 90);

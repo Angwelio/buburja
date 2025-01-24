@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class buburjapibechiste : MonoBehaviour
 {
-
+    public limpiadordepibes PibeScript;
+    public bool debug;
     void Start()
     {
-        
+    }
+    public void Awake()
+    {
+        PibeScript = GameObject.Find("LimpiaPibe").GetComponent<limpiadordepibes>();
     }
 
     // Update is called once per frame
@@ -30,7 +34,21 @@ public class buburjapibechiste : MonoBehaviour
         {
             guardiaScript.trapped();
         }
+        PibeScript.ilegal = true;
+        PibeScript.tempo=1500;
         Destroy(gameObject);
+        }
+        if (other.gameObject.tag == "NPC")
+        {
+            other.transform.position = transform.position;
+            NPibeCs NPCScript = other.gameObject.GetComponent<NPibeCs>();
+            if (NPCScript != null)
+            {
+                NPCScript.trapped();
+            }
+            PibeScript.ilegal = true;
+            PibeScript.tempo=600;
+            Destroy(gameObject);
         }
     }
 }

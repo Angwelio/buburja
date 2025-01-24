@@ -22,8 +22,10 @@ public class atrapapibes : MonoBehaviour
         if (inbubble){
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
             if (tempo-- <= 0){
+                tempo = 0;
                 inbubble = false;
                 rb.constraints = RigidbodyConstraints2D.None;
+                alert = true;
             }else{
                 tempo--;
             }
@@ -153,14 +155,20 @@ public class atrapapibes : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col){
         if (col.gameObject.tag == "Player"){
-            alert = true;
-            tempo = 300;
+            limpiadordepibes PibeScript = col.gameObject.GetComponent<limpiadordepibes>();
+            if (PibeScript.ilegal){
+                alert = true;
+                tempo = 300;
+            }
         }
     }
     void OnTriggerExit2D(Collider2D col){
         if (col.gameObject.tag == "Player"){
-            alert = false;
-            per = true;
+            limpiadordepibes PibeScript = col.gameObject.GetComponent<limpiadordepibes>();
+            if (PibeScript.ilegal){
+                alert = false;
+                per = true;
+            }
         }
     }
 }
