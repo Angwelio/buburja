@@ -5,34 +5,55 @@ using UnityEngine.UIElements;
 
 public class Agarrable : MonoBehaviour
 {
-    public bool Lanzable;
+    Rigidbody2D rb;
+    public bool Lanzable,Inrange;
     public Transform ManoPibe;
     public limpiadordepibes Limpiapibe;
     public GameObject WeaEstante;
+    public GameObject OBJECTIVE;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-         if(Input.GetKeyDown(KeyCode.E)){
-                    Lanzable = true;
-            if (Lanzable ==true)
-        {
-            transform.position = ManoPibe.position;
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            transform.position = Limpiapibe.pointer.position;
-        }        }
+        Agarra();
     }    
-        if(Input.GetKeyUp(KeyCode.E))
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player" )
         {
-        Lanzable = false;
+            Inrange = true;
         }
     }
-
+     public void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Inrange = false;
+        }
+     }
+    void Agarra()
+    {
+        if (Input.GetKey(KeyCode.E) && Inrange)
+            {
+            Lanzable = true;
+            }
+        if (Lanzable)
+        {
+                WeaEstante.transform.position = Limpiapibe.transform.position;
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            Lanzable =false;
+            Instantiate(WeaEstante);
+            WeaEstante.transform.position = Vector2.MoveTowards(WeaEstante.transform.position, OBJECTIVE.transform.position, 9* Time.deltaTime);
+        }
+    }
+    }
 }
+
+

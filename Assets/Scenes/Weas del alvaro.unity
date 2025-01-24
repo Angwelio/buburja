@@ -256,6 +256,22 @@ PolygonCollider2D:
       - {x: 0, y: -0.25}
       - {x: 0.5, y: 0}
   m_UseDelaunayMesh: 0
+--- !u!114 &830406522 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8888274760298350037, guid: 863e21d78ad5bb740a97702f0debdf11, type: 3}
+  m_PrefabInstance: {fileID: 938757179436986244}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ee2213a623a26545b23aa64baaa53de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &830406527 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 108628095159533398, guid: 863e21d78ad5bb740a97702f0debdf11, type: 3}
+  m_PrefabInstance: {fileID: 938757179436986244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1295913951
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +571,7 @@ GameObject:
   - component: {fileID: 1892441798}
   - component: {fileID: 1892441797}
   - component: {fileID: 1892441796}
+  - component: {fileID: 1892441799}
   m_Layer: 0
   m_Name: RandomElm
   m_TagString: Untagged
@@ -591,7 +608,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -605,7 +622,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &1892441797
 SpriteRenderer:
@@ -674,6 +691,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1892441799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892441795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6638b84d7eb16140bdd3da2ce3b83f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lanzable: 0
+  Inrange: 0
+  ManoPibe: {fileID: 830406527}
+  Limpiapibe: {fileID: 830406522}
+  WeaEstante: {fileID: 1651465158}
 --- !u!1001 &938757179436986244
 PrefabInstance:
   m_ObjectHideFlags: 0
