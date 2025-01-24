@@ -8,6 +8,8 @@ TagManager:
   - Muro
   - Guardia
   - Patrol
+  - NPC
+  - Sucieda
   layers:
   - Default
   - TransparentFX

@@ -10,7 +10,6 @@ public class SkillsPlayer : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     public GameObject Lanzar;
-
     public int Wrap;
     public float Burbuja;
     private Animator animPibe;
