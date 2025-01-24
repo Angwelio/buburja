@@ -8,7 +8,7 @@ public class atrapapibes : MonoBehaviour
     Vector2 mov, direction;
     public float speed, angle, tolerance = 0.01f;
     public Transform pibe, patrol1, patrol2, patrol3, patrol4, patrol5;
-    public bool alert, per, debug;
+    public bool alert, per, debug, inbubble;
     //public GameObject FOV;
     public int tempo, patrolnum, ptempo; //se calcula en frames, osea multiplicar el numero de segundos por 60
     //public Animator anim;
@@ -19,6 +19,16 @@ public class atrapapibes : MonoBehaviour
     }
     void Update()
     {
+        if (inbubble){
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            if (tempo-- <= 0){
+                inbubble = false;
+                rb.constraints = RigidbodyConstraints2D.None;
+            }else{
+                tempo--;
+            }
+            return;
+        }
         if (alert /*&& tempo > 0*/){
             transform.position = Vector2.MoveTowards(transform.position, pibe.position, speed * Time.deltaTime);
             direction = pibe.position - transform.position;
@@ -134,6 +144,11 @@ public class atrapapibes : MonoBehaviour
         if (Vector3.Distance(rb.position, patrol1.position) < tolerance && patrolnum == 1 || Vector3.Distance(rb.position, patrol2.position) < tolerance && patrolnum == 2 || Vector3.Distance(rb.position, patrol3.position) < tolerance && patrolnum == 3 || Vector3.Distance(rb.position, patrol4.position) < tolerance && patrolnum == 4 || Vector3.Distance(rb.position, patrol5.position) < tolerance && patrolnum == 5){
             ptempo--;
         }
+    }
+    public void trapped(){
+        inbubble = true;
+        tempo = 1500;
+
     }
 
     void OnTriggerEnter2D(Collider2D col){

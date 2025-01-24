@@ -22,5 +22,15 @@ public class buburjapibechiste : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
+        if (other.gameObject.tag == "Guardia")
+        {
+            other.transform.position = transform.position;
+            atrapapibes guardiaScript = other.gameObject.GetComponent<atrapapibes>();
+        if (guardiaScript != null)
+        {
+            guardiaScript.trapped();
+        }
+        Destroy(gameObject);
+        }
     }
 }
