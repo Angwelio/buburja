@@ -49,10 +49,14 @@ public class Agarrable : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.E))
         {
             Lanzable =false;
-            Instantiate(WeaEstante);
-            WeaEstante.transform.position = Vector2.MoveTowards(WeaEstante.transform.position, OBJECTIVE.transform.position, 9* Time.deltaTime);
+            Clonespible();
         }
     }
+    }
+    void Clonespible()
+    
+    {
+        Instantiate(WeaEstante,Vector2.MoveTowards(transform.position, Limpiapibe.transform.position, Limpiapibe.speed * Time.deltaTime),Quaternion.identity,WeaEstante.transform);
     }
 }
 
