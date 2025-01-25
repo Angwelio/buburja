@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a8654a5de17fd44da0d4b2a322f218d
+guid: e69de89cce0255f4180a039f7c62e362
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,421 +97,316 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: atrapados en burbujas_0
+      name: basura_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 168
-        width: 32
-        height: 32
+        x: 16
+        y: 124
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf3ea1d0c74130541b64851dce97021c
-      internalID: 432775713
+      spriteID: b13270be8f0240f4db7b516b9c9d9fea
+      internalID: 340241351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_1
+      name: basura_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 168
-        width: 32
-        height: 32
+        x: 40
+        y: 116
+        width: 28
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26cb141863ab12b4e863500dc5b6627c
-      internalID: 284851190
+      spriteID: 9625949fda1df12409426685f7dfd204
+      internalID: 737214615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_2
+      name: basura_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 168
-        width: 32
-        height: 32
+        x: 95
+        y: 115
+        width: 20
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ec5861a7adcacc4e8d7b1bad5c92f00
-      internalID: 2058559970
+      spriteID: 2bcb982cbb1d97d46b3005da21907adb
+      internalID: -1626333219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_3
+      name: basura_3
       rect:
         serializedVersion: 2
-        x: 110
-        y: 168
-        width: 32
-        height: 32
+        x: 122
+        y: 111
+        width: 31
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d8361384c54aef4a9063567dd6cce6c
-      internalID: 818587598
+      spriteID: 0a701dcd0f3380c4a8d721f07e530328
+      internalID: -312488267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_4
+      name: basura_4
       rect:
         serializedVersion: 2
-        x: 1
-        y: 135
-        width: 32
-        height: 32
+        x: 161
+        y: 103
+        width: 15
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34783f52909d80f48a7c9820bdc28198
-      internalID: -1243775619
+      spriteID: 1ef289860c4fbd54b82230b21f90ea90
+      internalID: 102051243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_5
+      name: basura_5
       rect:
         serializedVersion: 2
-        x: 37
-        y: 135
-        width: 32
-        height: 32
+        x: 11
+        y: 74
+        width: 55
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de42f7ef7914a1c45b79829936f61977
-      internalID: 1648250228
+      spriteID: 24c7cdbf96bb0884094a70e03416de3e
+      internalID: 1994936344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_6
+      name: basura_6
       rect:
         serializedVersion: 2
-        x: 74
-        y: 135
-        width: 32
-        height: 32
+        x: 103
+        y: 78
+        width: 53
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 042a19238d478094a9b887c2d5231175
-      internalID: -1329319449
+      spriteID: 6776d26087880984ca22b0a66f3337ad
+      internalID: 1467696652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_7
+      name: basura_7
       rect:
         serializedVersion: 2
-        x: 110
-        y: 135
-        width: 32
-        height: 32
+        x: 3
+        y: 46
+        width: 20
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23e54a33dd23074448256fc65eef90e4
-      internalID: -590256186
+      spriteID: b850fd4bfa5cadf4a8db91ee052e9f1d
+      internalID: -797421966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_8
+      name: basura_8
       rect:
         serializedVersion: 2
-        x: 1
-        y: 102
-        width: 32
-        height: 32
+        x: 38
+        y: 45
+        width: 21
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bab77d2329f8e2744910facfabadb4cf
-      internalID: 1212841235
+      spriteID: b31eca79e912b1043aed38508908a47a
+      internalID: 1212586862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_9
+      name: basura_9
       rect:
         serializedVersion: 2
-        x: 37
-        y: 102
-        width: 32
-        height: 32
+        x: 83
+        y: 46
+        width: 22
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4ee0bd86839a4743b1fd4f8dc936005
-      internalID: -1100622230
+      spriteID: de232cb6099ef8441af446be4111e655
+      internalID: 1556386048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_10
+      name: basura_10
       rect:
         serializedVersion: 2
-        x: 74
-        y: 102
-        width: 32
-        height: 32
+        x: 120
+        y: 43
+        width: 29
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0071c4ea1d8a2584da2fd8b779ff4a22
-      internalID: 1948920423
+      spriteID: 02e0266cb30ebd741b27ef7b249d353a
+      internalID: 1145999188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_11
+      name: basura_11
       rect:
         serializedVersion: 2
-        x: 110
-        y: 102
-        width: 32
-        height: 32
+        x: 4
+        y: 3
+        width: 44
+        height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4026aaf8672c09749afc7425cad43b98
-      internalID: 1484027515
+      spriteID: 05a6df53690f03e49859fca389d1aa19
+      internalID: 1885160323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_12
+      name: basura_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 67
-        width: 32
-        height: 32
+        x: 79
+        y: 27
+        width: 20
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0947018e0b2ce9d4fa4c180dd0059de7
-      internalID: -1873859314
+      spriteID: 3da64c231d2fd1246901bf098e7b63fd
+      internalID: -805307856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_13
+      name: basura_13
       rect:
         serializedVersion: 2
-        x: 36
-        y: 67
-        width: 32
-        height: 32
+        x: 77
+        y: 6
+        width: 26
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d089a3f821a59045b9413ebceba285c
-      internalID: 1851468761
+      spriteID: 5487d7230c96b1246bbe41980add705d
+      internalID: -559812961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atrapados en burbujas_14
+      name: basura_14
       rect:
         serializedVersion: 2
-        x: 73
-        y: 68
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6408516ba6203ea42b7ee53b10b661e1
-      internalID: -1760435729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: atrapados en burbujas_15
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 68
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc44321cf685d8443b55287a921c77e0
-      internalID: 1331970032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: atrapados en burbujas_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 34
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84b7eb7ed9cc388489d27f46ab7df7aa
-      internalID: 685974703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: atrapados en burbujas_17
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 34
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67f1dbffd14b9c7438ba62e428c035fc
-      internalID: -1361626570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: atrapados en burbujas_18
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 117
         y: 1
-        width: 32
-        height: 32
+        width: 41
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fa6f95237e31ee4fbabb4d2d1fe8178
-      internalID: -1195203866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: atrapados en burbujas_19
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: faa492f70e9c3b84ba9333224fe185f8
-      internalID: 102815208
+      spriteID: e0fec478714e5b442adc614fc45a3841
+      internalID: -1373963761
       vertices: []
       indices: 
       edges: []
@@ -527,26 +422,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      atrapados en burbujas_0: 432775713
-      atrapados en burbujas_1: 284851190
-      atrapados en burbujas_10: 1948920423
-      atrapados en burbujas_11: 1484027515
-      atrapados en burbujas_12: -1873859314
-      atrapados en burbujas_13: 1851468761
-      atrapados en burbujas_14: -1760435729
-      atrapados en burbujas_15: 1331970032
-      atrapados en burbujas_16: 685974703
-      atrapados en burbujas_17: -1361626570
-      atrapados en burbujas_18: -1195203866
-      atrapados en burbujas_19: 102815208
-      atrapados en burbujas_2: 2058559970
-      atrapados en burbujas_3: 818587598
-      atrapados en burbujas_4: -1243775619
-      atrapados en burbujas_5: 1648250228
-      atrapados en burbujas_6: -1329319449
-      atrapados en burbujas_7: -590256186
-      atrapados en burbujas_8: 1212841235
-      atrapados en burbujas_9: -1100622230
+      basura_0: 340241351
+      basura_1: 737214615
+      basura_10: 1145999188
+      basura_11: 1885160323
+      basura_12: -805307856
+      basura_13: -559812961
+      basura_14: -1373963761
+      basura_2: -1626333219
+      basura_3: -312488267
+      basura_4: 102051243
+      basura_5: 1994936344
+      basura_6: 1467696652
+      basura_7: -797421966
+      basura_8: 1212586862
+      basura_9: 1556386048
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
