@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a8654a5de17fd44da0d4b2a322f218d
+guid: add6590e9e907c147a9508005b28631d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Descuento rojo-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 204
+        width: 112
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5467de55428145046bdacbefbe0ba76d
+      internalID: -1796383616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Descuento rojo-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 135
+        width: 112
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c029434547c209243b52bab39eae34df
+      internalID: 1974207062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Descuento rojo-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 67
+        width: 112
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9836983af03e14099b26323a509dfd
+      internalID: 1593188631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +169,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Descuento rojo-Sheet_0: -1796383616
+      Descuento rojo-Sheet_1: 1974207062
+      Descuento rojo-Sheet_2: 1593188631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

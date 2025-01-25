@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0e3220619ffa2534095bd1ae9cb75eb6
+guid: db20a13a782f0f64593af6506b3a06b3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,34 +97,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: npc 6_0
+      name: pisosr_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 156
-        width: 15
-        height: 18
+        x: 0
+        y: 104
+        width: 47
+        height: 48
       alignment: 1
       pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2a3c25ee1bcca548b980771ffe4e204
-      internalID: 1269201381
+      spriteID: 43c439eb0023a2049823623e74752a7e
+      internalID: -1204435970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc 6_1
+      name: pisosr_1
       rect:
         serializedVersion: 2
-        x: 47
-        y: 156
-        width: 15
-        height: 18
+        x: 52
+        y: 104
+        width: 48
+        height: 48
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 437f3ff74db95ed4d95399fcfcd30c6e
-      internalID: -926908410
+      spriteID: 42e61737a24e224478d0e47150b4e913
+      internalID: -190560664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc 6_2
+      name: pisosr_2
       rect:
         serializedVersion: 2
-        x: 23
-        y: 124
-        width: 15
-        height: 18
+        x: 0
+        y: 52
+        width: 48
+        height: 48
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6578b9194b25d14f984c7a6e6b871df
-      internalID: -78683874
+      spriteID: 98003efdaf883524996742a787ff65ed
+      internalID: -541064726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc 6_3
+      name: pisosr_3
       rect:
         serializedVersion: 2
-        x: 47
-        y: 124
-        width: 15
-        height: 18
+        x: 52
+        y: 52
+        width: 48
+        height: 48
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8d8aeb3b93269a40878d1878bc32727
-      internalID: -2045859296
+      spriteID: 60d20c3e57560b84f8a9e8fee57af966
+      internalID: 1620289390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc 6_4
+      name: pisosr_4
       rect:
         serializedVersion: 2
-        x: 24
-        y: 93
-        width: 14
-        height: 17
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 033f0a777976d6e409cac1380403d094
-      internalID: -1199591057
+      spriteID: ec94c0d9eabd10d4087f05df0d45fb58
+      internalID: 950738120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc 6_5
+      name: pisosr_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 93
-        width: 14
-        height: 17
+        x: 52
+        y: 0
+        width: 48
+        height: 48
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ad78f7b69cbb148bcca403bd18cdf2
-      internalID: -593362959
+      spriteID: b7c8ff98445220743a9770c64888650d
+      internalID: 861894248
       vertices: []
       indices: 
       edges: []
@@ -233,12 +233,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      npc 6_0: 1269201381
-      npc 6_1: -926908410
-      npc 6_2: -78683874
-      npc 6_3: -2045859296
-      npc 6_4: -1199591057
-      npc 6_5: -593362959
+      pisosr_0: -1204435970
+      pisosr_1: -190560664
+      pisosr_2: -541064726
+      pisosr_3: 1620289390
+      pisosr_4: 950738120
+      pisosr_5: 861894248
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
