@@ -26,7 +26,7 @@ public class buburjapibechiste : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
-        if (other.gameObject.tag == "Guardia")
+        /*if (other.gameObject.tag == "Guardia")
         {
             other.transform.position = transform.position;
             atrapapibes guardiaScript = other.gameObject.GetComponent<atrapapibes>();
@@ -36,6 +36,33 @@ public class buburjapibechiste : MonoBehaviour
         }
         PibeScript.ilegal = true;
         PibeScript.tempo=1500;
+        Destroy(gameObject);
+        }
+        if (other.gameObject.tag == "NPC")
+        {
+            other.transform.position = transform.position;
+            NPibeCs NPCScript = other.gameObject.GetComponent<NPibeCs>();
+            if (NPCScript != null)
+            {
+                NPCScript.trapped();
+            }
+            PibeScript.ilegal = true;
+            PibeScript.tempo=600;
+            Destroy(gameObject);
+        }*/
+    }
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Guardia")
+        {
+           //other.transform.position = transform.position;
+            atrapapibes guardiaScript = other.gameObject.GetComponent<atrapapibes>();
+        if (guardiaScript != null)
+        {
+            guardiaScript.speed = 2;
+        }
+        //PibeScript.ilegal = true;
+        //PibeScript.tempo=1500;
         Destroy(gameObject);
         }
         if (other.gameObject.tag == "NPC")

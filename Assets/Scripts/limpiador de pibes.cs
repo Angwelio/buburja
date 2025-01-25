@@ -10,7 +10,7 @@ public class limpiadordepibes : MonoBehaviour
     private Animator anim;
     public Transform pointer;
     public GameObject burbuja;
-    public bool ilegal;
+    public bool ilegal,playable;
     public int tempo;
     void Start()
     {
@@ -19,6 +19,9 @@ public class limpiadordepibes : MonoBehaviour
     }
     void Update()
     {
+        if(!playable){
+            return;
+        }
         if (ilegal){
             if (tempo-- <= 0){
                 tempo = 0;

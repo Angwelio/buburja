@@ -1,21 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class atrapapibes : MonoBehaviour
 {
     Rigidbody2D rb;
-    Vector2 mov, direction;
+    Vector2 direction;
     public float speed, angle, tolerance = 0.01f;
     public Transform pibe, patrol1, patrol2, patrol3, patrol4, patrol5;
+    public GameObject FOV;
     public bool alert, per, debug, inbubble;
-    //public GameObject FOV;
-    public int tempo, patrolnum, ptempo; //se calcula en frames, osea multiplicar el numero de segundos por 60
-    //public Animator anim;
+    public int tempo, patrolnum, ptempo, slowtempo; //se calcula en frames, osea multiplicar el numero de segundos por 60
+    public Animator anim;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); 
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
+        pibe = GameObject.FindWithTag("Player").transform;
     }
     void Update()
     {
@@ -35,9 +37,9 @@ public class atrapapibes : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, pibe.position, speed * Time.deltaTime);
             direction = pibe.position - transform.position;
             angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            rb.MoveRotation(angle);
-            if (tempo + 30 >= 900){
-                tempo = 900;
+            PibeAngular(angle); 
+            if (tempo + 30 >= 1500){
+                tempo = 1500;
             } else {
                 tempo += 30;
             }
@@ -46,7 +48,7 @@ public class atrapapibes : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, pibe.position, speed * Time.deltaTime);
             direction = pibe.position - transform.position;
             angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            rb.MoveRotation(angle);
+            PibeAngular(angle);
             if (tempo - 1 <= 0){
                 tempo = 0;
                 per = false;
@@ -54,27 +56,27 @@ public class atrapapibes : MonoBehaviour
                     case 1:
                         direction = patrol1.position - transform.position;
                         angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                        rb.MoveRotation(angle);
+                        PibeAngular(angle);
                         break;
                     case 2:
                         direction = patrol2.position - transform.position;
                         angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                        rb.MoveRotation(angle);
+                        PibeAngular(angle);
                         break;
                     case 3:
                         direction = patrol3.position - transform.position;
                         angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                        rb.MoveRotation(angle);
+                        PibeAngular(angle);
                         break;
                     case 4:
                         direction = patrol4.position - transform.position;
                         angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                        rb.MoveRotation(angle);
+                        PibeAngular(angle);
                         break;
                     case 5:
                         direction = patrol5.position - transform.position;
                         angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                        rb.MoveRotation(angle);
+                        PibeAngular(angle);
                         break;
                 }
             } else {
@@ -90,7 +92,7 @@ public class atrapapibes : MonoBehaviour
                         ptempo = 300;
                         direction = patrol2.position - transform.position;
                         angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                        rb.MoveRotation(angle);
+                        PibeAngular(angle);
                     }
                     break;
 
@@ -101,7 +103,7 @@ public class atrapapibes : MonoBehaviour
                         ptempo = 300;
                         direction = patrol3.position - transform.position;
                     angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                    rb.MoveRotation(angle);
+                    PibeAngular(angle);
                     }
                     break;
 
@@ -112,7 +114,7 @@ public class atrapapibes : MonoBehaviour
                         ptempo = 300;
                         direction = patrol4.position - transform.position;
                     angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                    rb.MoveRotation(angle);
+                    PibeAngular(angle);
                     }
                     break;
 
@@ -123,7 +125,7 @@ public class atrapapibes : MonoBehaviour
                         ptempo = 300;
                         direction = patrol5.position - transform.position;
                     angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                    rb.MoveRotation(angle);
+                    PibeAngular(angle);
                     }
                     break;
 
@@ -134,7 +136,7 @@ public class atrapapibes : MonoBehaviour
                         ptempo = 300;
                         direction = patrol1.position - transform.position;
                     angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                    rb.MoveRotation(angle);
+                    PibeAngular(angle);
                     }
                     break;
 
@@ -150,25 +152,33 @@ public class atrapapibes : MonoBehaviour
     public void trapped(){
         inbubble = true;
         tempo = 1500;
-
     }
-
-    void OnTriggerEnter2D(Collider2D col){
-        if (col.gameObject.tag == "Player"){
-            limpiadordepibes PibeScript = col.gameObject.GetComponent<limpiadordepibes>();
-            if (PibeScript.ilegal){
-                alert = true;
-                tempo = 300;
-            }
-        }
+    void PibeAngular(float angle){
+        angle = (angle + 360) % 360;
+        if (PibeChecador(angle, 45, 135))  // Up
+    {
+        FOV.transform.position = (transform.position + new Vector3(0, 2, 0));
+        //animacion de arriba
     }
-    void OnTriggerExit2D(Collider2D col){
-        if (col.gameObject.tag == "Player"){
-            limpiadordepibes PibeScript = col.gameObject.GetComponent<limpiadordepibes>();
-            if (PibeScript.ilegal){
-                alert = false;
-                per = true;
-            }
-        }
+    else if (PibeChecador(angle, 225, 315))  // Down
+    {
+        FOV.transform.position = (transform.position + new Vector3(0, -2, 0));
+        //animacion de abajo
+    }
+    else if (PibeChecador(angle, 135, 225))  // Left
+    {
+        FOV.transform.position = (transform.position + new Vector3(-2, 0, 0));
+        //animacion de izquierda
+        //spriteRenderer.flipX = true;  // Flip to face left
+    }
+    else  // Right (0 to 45 and 315 to 360)
+    {
+        FOV.transform.position = (transform.position + new Vector3(2, 0, 0));
+        //animacion de derecha
+        //spriteRenderer.flipX = false;
+    }
+    }
+    bool PibeChecador(float angle, float min, float max){
+        return angle >= min && angle < max;
     }
 }

@@ -2,15 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPibeCs : MonoBehaviour
+public class NPibeCrango : MonoBehaviour
 {
-    private Animator anim;
-    public bool inbubble,debug;
-    public GameObject texto;
+    public NPibeCs NPC;
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
@@ -18,16 +16,15 @@ public class NPibeCs : MonoBehaviour
     {
         
     }
-    public void trapped(){
-    }
-    /*void OnTriggerEnter2D(Collider2D other){
+    void OnTriggerEnter2D(Collider2D other){
         if (other.gameObject.tag == "Player"){
-            texto.SetActive(true);
+            NPC.texto.SetActive(true);
+            NPC.debug = true;
         }
     }
     void OnTriggerExit2D(Collider2D other){
         if (other.gameObject.tag == "Player"){
-            texto.SetActive(false);
+            NPC.texto.SetActive(false);
         }
-    }*/
+    }
 }
