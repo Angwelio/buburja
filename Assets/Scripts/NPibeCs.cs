@@ -83,21 +83,36 @@ public class NPibeCs : MonoBehaviour
     }*/
     void PibeAngular(float angle){
         angle = (angle + 360) % 360;
+        if(direction != Vector2.zero){
+        anim.SetBool("Move",true);
+        }else
+        {
+        anim.SetBool("Move",false);
+        }
+
         if (PibeChecador(angle, 45, 135))  // Up
     {
+                anim.SetFloat("Y",direction.y);
+
         //animacion de arriba
     }
     else if (PibeChecador(angle, 225, 315))  // Down
     {
+                anim.SetFloat("Y",direction.y);
+
         //animacion de abajo
     }
     else if (PibeChecador(angle, 135, 225))  // Left
     {
+                anim.SetFloat("X",direction.x);
+
         //animacion de izquierda
         //spriteRenderer.flipX = true;  // Flip to face left
     }
     else  // Right (0 to 45 and 315 to 360)
     {
+                anim.SetFloat("X",direction.x);
+
         //animacion de derecha
         //spriteRenderer.flipX = false;
     }

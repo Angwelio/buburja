@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2813279320293373133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4735598425078863572}
+  - component: {fileID: 9203772311467416672}
+  m_Layer: 0
+  m_Name: GeneradorBasuraPibe
+  m_TagString: Untagged
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4735598425078863572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813279320293373133}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9203772311467416672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813279320293373133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23343e8a4c4b57468c44c0784866a77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BasuraInicio: {fileID: 4735598425078863572}
+  rectangleSize: {x: 60, y: 30}
+  prefabs:
+  - {fileID: 6531400117127980148, guid: 099f183c39a3cfa4d8fe469a7e425d77, type: 3}
+  - {fileID: 6385493629319956613, guid: 6a7a346ff4c398d4a909f107932013ee, type: 3}
+  - {fileID: 4884991006790430274, guid: 7445850d8e31f43419b667df8afdc739, type: 3}
+  - {fileID: 4257729628855683931, guid: 75163cf203e4c00459ed087d607417b1, type: 3}
+  - {fileID: 2306986891769641713, guid: 55f953ef1922ecb42a8d6f954ae6458b, type: 3}
+  - {fileID: 752204598786851347, guid: ad4465a438976ad4c8d157109e7717fd, type: 3}
+  - {fileID: 4912715924644036764, guid: 8fcbaea57cb09d34e9bb9e6ebd590e87, type: 3}
+  - {fileID: 6052525449424096492, guid: 390b150b78a866644a2a8ed36c970be4, type: 3}
+  - {fileID: 169801259445367574, guid: db89b598bd95f4e449d5a523d67f5954, type: 3}
+  - {fileID: 1585932385546701321, guid: 1e04a1d5dfcfd3d48b486278f3b0744f, type: 3}
+  - {fileID: 2440611934947021176, guid: ba0449b6296196f47bd4f447c4e20e92, type: 3}
+  - {fileID: 795801875041190126, guid: 4f62f2e2393b75d4d94128870b95b9db, type: 3}
+  - {fileID: 1994818532305350462, guid: 07750e36067b81f4da929d55f70d64fb, type: 3}
+  - {fileID: 2520904106781684818, guid: 8d4caec877e4d4143b793182536dd7e2, type: 3}
+  - {fileID: 8199440495192015428, guid: f2f30da87557dca43a609bb2242a2753, type: 3}
+  numberOfSpawns: 14
+  prefabsPerGroup: 4
