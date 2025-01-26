@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Estanteria-Sheet_0
+  m_Name: Estanteria final-Sheet sin sobresaliente-sheet_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 819974472, guid: 7c68caa7e2ce0a343ba17805079648a1, type: 3}
+  m_Sprite: {fileID: 1406665494, guid: a9b5c1abf7a389b46b24fa530e6aff4f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
