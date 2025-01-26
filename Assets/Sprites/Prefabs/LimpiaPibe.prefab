@@ -43,7 +43,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.36645603, g: 0.3890397, b: 0.4245283, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -291,6 +291,7 @@ MonoBehaviour:
   pointer: {fileID: 7624117370760738651}
   burbuja: {fileID: 6615682815491470099, guid: cc50c85811c7f1c49ba84bc9b4fa8b1d, type: 3}
   ilegal: 0
+  playable: 0
   tempo: 0
 --- !u!1 &9135656563364719787
 GameObject:
