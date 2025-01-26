@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6376836371985953818}
   - component: {fileID: 6661005818524958232}
   - component: {fileID: 4266500604269602665}
+  - component: {fileID: 1590390857402347014}
   m_Layer: 0
   m_Name: Atrapador de pibes
   m_TagString: Guardia
@@ -77,8 +78,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0, g: 0.58620304, b: 0.9150943, a: 1}
+  m_Sprite: {fileID: -817582833, guid: f0844b881beb8454c8212bc58a8f08c9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -118,7 +119,7 @@ MonoBehaviour:
   patrolnum: 1
   ptempo: 0
   slowtempo: 0
-  anim: {fileID: 0}
+  anim: {fileID: 1590390857402347014}
 --- !u!50 &6661005818524958232
 Rigidbody2D:
   serializedVersion: 4
@@ -182,7 +183,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 1.0666667, y: 1.3333334}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -191,6 +192,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
+--- !u!95 &1590390857402347014
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983094910071232107}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a9f7949b5b4c2d46b2f98cd1005b82e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5608770743091163992
 GameObject:
   m_ObjectHideFlags: 0
