@@ -56,6 +56,13 @@ public class limpiadordepibes : MonoBehaviour
         {
         anim.SetBool("PibeCorre",false);
         }
+        if (Input.GetKey(KeyCode.E))
+        {
+        anim.SetBool("LimpiaPibe",true);
+        }else
+        {
+        anim.SetBool("LimpiaPibe",false);
+        }
        
 
         if (Input.GetKeyUp(KeyCode.Z))

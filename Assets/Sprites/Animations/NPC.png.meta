@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 72e787281e38a154c8163d96c59af4bd
+guid: 0c968b412f8728f44919a52b154f4a44
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,169 +97,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Limpiando_0
+      name: NPC_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 166
+        x: 0
+        y: 29
         width: 20
         height: 18
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4d9d8d87fc21e14f98fab9498d439f3
-      internalID: -1045796554
+      spriteID: 3b25800c61108614aa0a86e9008fa488
+      internalID: 405471483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpiando_1
+      name: NPC_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 166
+        x: 26
+        y: 28
         width: 18
         height: 18
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2283958ad963fab4a93426aeff59930d
-      internalID: -715591662
+      spriteID: 0d1b47355ae55994dae8d947df19bea0
+      internalID: -1078001903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpiando_2
+      name: NPC_2
       rect:
         serializedVersion: 2
-        x: 80
-        y: 167
+        x: 69
+        y: 30
         width: 10
         height: 17
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aebd7202dcad2ae488490ec2735c249a
-      internalID: 292082136
+      spriteID: 17d8ac07895ca024bb3ab57c3de7f310
+      internalID: 561468481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpiando_3
+      name: NPC_3
       rect:
         serializedVersion: 2
-        x: 101
-        y: 167
+        x: 90
+        y: 30
         width: 10
         height: 17
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee554cb19c01b3343bc363e1793f95e2
-      internalID: 897397879
+      spriteID: 49da75884480f494b9c056998126d6ab
+      internalID: 893980167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpiando_4
+      name: NPC_4
       rect:
         serializedVersion: 2
-        x: 17
-        y: 138
+        x: 7
+        y: 0
         width: 18
         height: 18
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ef788e7f29325445915bf707b8c7f19
-      internalID: 897250243
+      spriteID: 678915ac25b5d2249b11ce1c8d9cf6e2
+      internalID: 1476386841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpiando_5
+      name: NPC_5
       rect:
         serializedVersion: 2
-        x: 39
-        y: 138
+        x: 29
+        y: 0
         width: 20
         height: 18
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c1bfe4bf385bb04b8bb14d12e8aed37
-      internalID: -1350278506
+      spriteID: 03015d22ed960be47abb1dc07ef30f8d
+      internalID: -2136031782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpiando_6
+      name: NPC_6
       rect:
         serializedVersion: 2
-        x: 79
-        y: 139
+        x: 68
+        y: 2
         width: 10
         height: 17
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bc030a69144e3b44ba74dd516666c51
-      internalID: -1317604613
+      spriteID: 921262849c60f09459c7346f50fe2b1a
+      internalID: -1827890336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpiando_7
+      name: NPC_7
       rect:
         serializedVersion: 2
-        x: 100
-        y: 139
+        x: 89
+        y: 2
         width: 10
         height: 17
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc7c50cac6b8a0c4d8f273f898bb3714
-      internalID: -1119756705
+      spriteID: 23c1f93d537f10f43bc97e4d26217eb9
+      internalID: 1785426658
       vertices: []
       indices: 
       edges: []
@@ -275,14 +275,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Limpiando_0: -1045796554
-      Limpiando_1: -715591662
-      Limpiando_2: 292082136
-      Limpiando_3: 897397879
-      Limpiando_4: 897250243
-      Limpiando_5: -1350278506
-      Limpiando_6: -1317604613
-      Limpiando_7: -1119756705
+      NPC_0: 405471483
+      NPC_1: -1078001903
+      NPC_2: 561468481
+      NPC_3: 893980167
+      NPC_4: 1476386841
+      NPC_5: -2136031782
+      NPC_6: -1827890336
+      NPC_7: 1785426658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
