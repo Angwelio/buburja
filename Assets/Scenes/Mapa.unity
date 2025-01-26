@@ -28501,6 +28501,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 291077572466507636, guid: 863e21d78ad5bb740a97702f0debdf11, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090948188472142541, guid: 863e21d78ad5bb740a97702f0debdf11, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ae332e102b91b8845bfe703ad54be438, type: 2}
     - target: {fileID: 6544225510000933605, guid: 863e21d78ad5bb740a97702f0debdf11, type: 3}
       propertyPath: m_Name
       value: LimpiaPibe
