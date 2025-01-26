@@ -1122,6 +1122,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2012058012768564291, guid: a1725aa252082af439a7523fc95b5662, type: 3}
   m_PrefabInstance: {fileID: 256793557}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &321029270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 321029271}
+  m_Layer: 0
+  m_Name: Alvaro patrulla (1)
+  m_TagString: Patrol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &321029271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321029270}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.14, y: -6.43, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &325228589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1188,6 +1219,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 150039769700720642, guid: c99e1a05ad20d8a4ca53580583f5fc34, type: 3}
   m_PrefabInstance: {fileID: 325228589}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &332716521
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1505828762299929675, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_Name
+      value: Wonka Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4304767042010280831, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: patrol1
+      value: 
+      objectReference: {fileID: 943786720}
+    - target: {fileID: 4304767042010280831, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: patrol2
+      value: 
+      objectReference: {fileID: 321029271}
+    - target: {fileID: 8797601025546554332, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797601025546554332, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797601025546554332, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797601025546554332, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797601025546554332, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797601025546554332, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797601025546554332, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797601025546554332, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797601025546554332, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797601025546554332, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129198474954927076, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
+      propertyPath: m_text
+      value: Prestame una feria
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 944831b081110ef4cb8bb51b69d505d0, type: 3}
 --- !u!1 &408766290
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,6 +1417,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 150039769700720642, guid: c99e1a05ad20d8a4ca53580583f5fc34, type: 3}
   m_PrefabInstance: {fileID: 424692398}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &451453559
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4270250431683534307, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270250431683534307, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270250431683534307, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270250431683534307, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270250431683534307, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270250431683534307, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270250431683534307, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270250431683534307, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270250431683534307, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270250431683534307, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604029041037409755, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_text
+      value: Como se nota que no chambeas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174548227225813620, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: m_Name
+      value: Arturo Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856394023119676736, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: patrol1
+      value: 
+      objectReference: {fileID: 1199011331}
+    - target: {fileID: 8856394023119676736, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
+      propertyPath: patrol2
+      value: 
+      objectReference: {fileID: 2093767518}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d9a842acd17ae8346881ccb30e4be0d8, type: 3}
 --- !u!1001 &472203714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21917,6 +22086,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 150039769700720642, guid: c99e1a05ad20d8a4ca53580583f5fc34, type: 3}
   m_PrefabInstance: {fileID: 636374292}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &685107190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 685107191}
+  m_Layer: 0
+  m_Name: Patrulla sergio
+  m_TagString: Patrol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &685107191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685107190}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 17.05, y: 20.74, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &695300150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22107,6 +22307,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 150039769700720642, guid: c99e1a05ad20d8a4ca53580583f5fc34, type: 3}
   m_PrefabInstance: {fileID: 883006846}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &943786719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 943786720}
+  m_Layer: 0
+  m_Name: Alvaro patrulla
+  m_TagString: Patrol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &943786720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943786719}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 46.99, y: -6.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &951961383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22305,6 +22536,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2012058012768564291, guid: a1725aa252082af439a7523fc95b5662, type: 3}
   m_PrefabInstance: {fileID: 979980866}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &981914680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 981914681}
+  m_Layer: 0
+  m_Name: Doni patrulla
+  m_TagString: Patrol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &981914681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981914680}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.97, y: 7.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1010185905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26331,6 +26593,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1416754033}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1199011330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1199011331}
+  m_Layer: 0
+  m_Name: Arturo patrulla (1)
+  m_TagString: Patrol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1199011331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199011330}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.63, y: 20.99, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1199843732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26397,6 +26690,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2012058012768564291, guid: a1725aa252082af439a7523fc95b5662, type: 3}
   m_PrefabInstance: {fileID: 1199843732}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1206111261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1206111262}
+  m_Layer: 0
+  m_Name: Doni patrulla (1)
+  m_TagString: Patrol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1206111262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206111261}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.01, y: 6.58, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1211995798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29738,6 +30062,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 150039769700720642, guid: c99e1a05ad20d8a4ca53580583f5fc34, type: 3}
   m_PrefabInstance: {fileID: 1640117333}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1644235473
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1226823109883403955, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_Name
+      value: Adonai Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494258763053136263, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: patrol1
+      value: 
+      objectReference: {fileID: 981914681}
+    - target: {fileID: 4494258763053136263, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: patrol2
+      value: 
+      objectReference: {fileID: 1206111262}
+    - target: {fileID: 8886208983679557916, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_text
+      value: 'Ijole
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220013977029017892, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.1624966
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220013977029017892, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.554802
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220013977029017892, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220013977029017892, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220013977029017892, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220013977029017892, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220013977029017892, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220013977029017892, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220013977029017892, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220013977029017892, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fbb6096d6336b64ab7714289747891a, type: 3}
 --- !u!1001 &1652966513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30134,6 +30529,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 150039769700720642, guid: c99e1a05ad20d8a4ca53580583f5fc34, type: 3}
   m_PrefabInstance: {fileID: 1826071102}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1844028121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1844028122}
+  m_Layer: 0
+  m_Name: Patrulla sergio (1)
+  m_TagString: Patrol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1844028122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844028121}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 17.7, y: -6.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1887055490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30690,6 +31116,107 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2012058012768564291, guid: a1725aa252082af439a7523fc95b5662, type: 3}
   m_PrefabInstance: {fileID: 2085243839}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2093767517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2093767518}
+  m_Layer: 0
+  m_Name: Arturo patrulla
+  m_TagString: Patrol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2093767518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093767517}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 45.94, y: 20.96, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2099353736
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1890581589776263669, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: patrol1
+      value: 
+      objectReference: {fileID: 685107191}
+    - target: {fileID: 1890581589776263669, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: patrol2
+      value: 
+      objectReference: {fileID: 1844028122}
+    - target: {fileID: 3847459907517353665, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_Name
+      value: Sergio Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599586154256109910, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.702042
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599586154256109910, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.7519703
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599586154256109910, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599586154256109910, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599586154256109910, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599586154256109910, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599586154256109910, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599586154256109910, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599586154256109910, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599586154256109910, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859059772514955630, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
+      propertyPath: m_text
+      value: Warhammer 40k es una franquicia de ciencia ficcion y fantasia oscura
+        para adultos o grimdark
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d6a0f3ba7a8fd6448c1c5f1716f4a2d, type: 3}
 --- !u!1001 &2116559180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30857,3 +31384,15 @@ SceneRoots:
   - {fileID: 1309900051}
   - {fileID: 408766291}
   - {fileID: 531549234}
+  - {fileID: 1644235473}
+  - {fileID: 451453559}
+  - {fileID: 2099353736}
+  - {fileID: 332716521}
+  - {fileID: 2093767518}
+  - {fileID: 943786720}
+  - {fileID: 321029271}
+  - {fileID: 981914681}
+  - {fileID: 685107191}
+  - {fileID: 1844028122}
+  - {fileID: 1206111262}
+  - {fileID: 1199011331}
