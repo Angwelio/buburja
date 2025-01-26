@@ -12,12 +12,12 @@ public class SkillsPlayer : MonoBehaviour
     public GameObject Lanzar;
     public int Wrap;
     public float Burbuja;
-    private Animator animPibe;
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
          rb = GetComponent<Rigidbody2D>();
-         animPibe = GetComponent<Animator>();
+         animator = GetComponent<Animator>();
     }
         // Update is called once per frame
     
@@ -26,8 +26,8 @@ public class SkillsPlayer : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        animPibe.SetFloat("X",movement.x);
-        animPibe.SetFloat("Y",movement.y);
+        animator.SetFloat("X",movement.x);
+        animator.SetFloat("Y",movement.y);
     }
     void FixedUpdate()
     {

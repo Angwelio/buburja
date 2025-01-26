@@ -47,8 +47,17 @@ public class limpiadordepibes : MonoBehaviour
             //transform.rotation = Quaternion.Euler(0, 0, 0);
             pointer.position = (transform.position + new Vector3(0, -2, 0));
         }
+        if (mov != Vector2.zero)
+        {
         anim.SetFloat("X",mov.x);
         anim.SetFloat("Y",mov.y);
+        anim.SetBool("PibeCorre",true);
+        }else
+        {
+        anim.SetBool("PibeCorre",false);
+        }
+       
+
         if (Input.GetKeyUp(KeyCode.Z))
         {
             generaburbuja();
