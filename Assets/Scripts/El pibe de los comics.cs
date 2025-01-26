@@ -17,7 +17,7 @@ public class Elpibedeloscomics : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (panelActual)
+        /*switch (panelActual)
         {
             case 0:
             panel1.SetActive(false);
@@ -55,11 +55,11 @@ public class Elpibedeloscomics : MonoBehaviour
                 player.playable = true;
                 //Destroy(gameObject);
             }*/
-        }
-        if (Input.GetKeyUp(KeyCode.X))
+        //}
+       /* if (Input.GetKeyUp(KeyCode.X))
         {
             panelActual = 5;
-        }
+        }*/
         if (Input.GetKeyUp(KeyCode.Escape))
         {
             TogglePause();
