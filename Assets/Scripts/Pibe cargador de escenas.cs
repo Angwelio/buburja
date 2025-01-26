@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Pibecargadordeescenas : MonoBehaviour
 {
-    public string escena;
+    //public string escena;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +17,17 @@ public class Pibecargadordeescenas : MonoBehaviour
     {
         
     }
-    void escenacambio(){
+    public void escenacambio(string escena){
         SceneManager.LoadScene(escena);
+    }
+    public void QuitGame()
+    {
+        #if UNITY_EDITOR
+            // Stop play mode in the Unity Editor
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            // Close the application in a build
+            Application.Quit();
+        #endif
     }
 }
