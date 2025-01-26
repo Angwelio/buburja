@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0e3220619ffa2534095bd1ae9cb75eb6
+guid: a9b5c1abf7a389b46b24fa530e6aff4f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,127 +97,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: npc 6_0
+      name: Estanteria final-Sheet sin sobresaliente-sheet_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 156
-        width: 15
-        height: 18
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 107
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2a3c25ee1bcca548b980771ffe4e204
-      internalID: 1269201381
+      spriteID: 61e1d931c053b044685c243ca674fd9f
+      internalID: 1406665494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc 6_1
+      name: Estanteria final-Sheet sin sobresaliente-sheet_1
       rect:
         serializedVersion: 2
-        x: 47
-        y: 156
-        width: 15
-        height: 18
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 54
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 437f3ff74db95ed4d95399fcfcd30c6e
-      internalID: -926908410
+      spriteID: 197bf459a025c1942b1929028508827e
+      internalID: -2045650979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc 6_2
+      name: Estanteria final-Sheet sin sobresaliente-sheet_2
       rect:
         serializedVersion: 2
-        x: 23
-        y: 124
-        width: 15
-        height: 18
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 0
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6578b9194b25d14f984c7a6e6b871df
-      internalID: -78683874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc 6_3
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 124
-        width: 15
-        height: 18
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8d8aeb3b93269a40878d1878bc32727
-      internalID: -2045859296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc 6_4
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 93
-        width: 14
-        height: 17
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 033f0a777976d6e409cac1380403d094
-      internalID: -1199591057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc 6_5
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 93
-        width: 14
-        height: 17
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9ad78f7b69cbb148bcca403bd18cdf2
-      internalID: -593362959
+      spriteID: 2d8a6f30aa17fe14588024a3affdf375
+      internalID: 1924750779
       vertices: []
       indices: 
       edges: []
@@ -233,12 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      npc 6_0: 1269201381
-      npc 6_1: -926908410
-      npc 6_2: -78683874
-      npc 6_3: -2045859296
-      npc 6_4: -1199591057
-      npc 6_5: -593362959
+      Estanteria final-Sheet sin sobresaliente-sheet_0: 1406665494
+      Estanteria final-Sheet sin sobresaliente-sheet_1: -2045650979
+      Estanteria final-Sheet sin sobresaliente-sheet_2: 1924750779
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
