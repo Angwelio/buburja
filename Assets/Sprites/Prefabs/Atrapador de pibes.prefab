@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0, g: 0.58620304, b: 0.9150943, a: 1}
   m_FlipX: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   angle: 0
-  tolerance: 0.01
+  tolerance: 1
   pibe: {fileID: 0}
   patrol1: {fileID: 0}
   patrol2: {fileID: 0}
@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 6074775887877332510}
   - component: {fileID: 3931835880326701976}
   - component: {fileID: 3561023441811568577}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Vista
   m_TagString: Untagged
   m_Icon: {fileID: 0}
